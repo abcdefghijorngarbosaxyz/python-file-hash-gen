@@ -82,6 +82,7 @@ def main():
         print(f'Unknown hash function: {hash_func}')
         return
 
+    # Print the hash of the file
     print(f'{hash_func.upper()} hash of {file_path}: {hash}')
 
 
